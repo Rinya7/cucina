@@ -1,0 +1,126 @@
+/* color carte */
+/* color header Genoa: color: #F3F3F3; and background for logo */
+/* color for button "Buy now" Button dark red background: rgba(188, 26, 26, 0.2);*/
+
+/* text Montserrat 800 700 600 500 400 300 */
+/* text footer Inter 400 Roboto 400 */
+
+:root {
+  --Genoa: #f3f3f3;
+  --Button-dark-red: rgba(188, 26, 26, 0.2);
+}
+body {
+  background: #100f0f;
+  color: var(--Genoa);
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+header,
+.hero {
+  background: linear-gradient(
+    228.52deg,
+    rgba(111, 102, 102, 0.9) 4.71%,
+    rgba(16, 15, 15, 0.9) 39.77%,
+    rgba(16, 15, 15, 0.9) 44.21%
+  );
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.logo {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.navigator .link {
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.btn-contact {
+  background: inherit;
+  color: inherit;
+  font-family: inherit;
+
+  font-weight: 800;
+}
+
+.btn {
+  background: var(--Button-dark-red);
+  color: inherit;
+}
+
+.hero .btn {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.23;
+}
+
+.mein-title {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 1.22;
+}
+
+.hero .title {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 1.22;
+}
+
+.numer {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.22;
+}
+
+.hide {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.sauces .title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.22;
+}
+
+.sauces .btn {
+  font-weight: inherit;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.video .title {
+  font-weight: inherit;
+  font-size: 32px;
+  line-height: 1.22;
+}
+
+.footer {
+  font-family: "Inter";
+}
+.footer .text {
+  font-family: "Roboto";
+  color: #979797;
+}
+
+.privacy .link {
+  font-weight: 500;
+  color: #ffffff;
+}
