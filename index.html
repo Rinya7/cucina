@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+  />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,6 +19,7 @@
   </head>
   <body>
     <header>
+        <div class="conteiner footer-block">
       <nav class="navigator">
         <a href="./index.html" class="logo"
           ><img
@@ -22,20 +27,22 @@
             alt="logo"
             width="32"
             height="32"
+            class="logo-img"
           />CUCINA</a
         >
         <ul class="list">
-          <li><a href="" class="link">Home</a></li>
-          <li><a href="" class="link">Store</a></li>
-          <li><a href="" class="link">Recipes</a></li>
-          <li><a href="" class="link">Gallery</a></li>
+          <li class="item"><a href="" class="link">Home</a></li>
+          <li class="item"><a href="" class="link">Store</a></li>
+          <li class="item"><a href="" class="link">Recipes</a></li>
+          <li class="item"><a href="" class="link">Gallery</a></li>
         </ul>
       </nav>
       <button type="button" class="btn-contact">Contact us</button>
+    </div>
     </header>
 
     <main>
-      <section class="hero">
+      <section class="hero"> <div class="conteiner">
         <!-- Hero Section Left -->
         <h1 class="mein-title">CUCINA DI CATHERINA</h1>
         <h2 class="title">We know, you will love our product</h2>
@@ -106,11 +113,11 @@
                 height="24"
             /></a>
           </li>
-        </ul>
+        </ul></div>
       </section>
 
       <!-- Sauces Section -->
-      <section>
+      <section> <div class="conteiner sauces">
         <h2 class="hide">Sauces</h2>
         <ul class="sauces list">
           <li class=>
@@ -133,11 +140,11 @@
             height="349"/>
             <button type="button" class="btn">Buy now</button>
           </li>
-        </ul>
+        </ul></div>
       </section>
 
       <!-- Videos Section -->
-      <section>
+      <section> <div class="conteiner video">
         <h2 class="hide">Video</h2>
         <ul class="video list">
           <li>
@@ -158,9 +165,9 @@
                 width="442" height="307"
             /></a>
           </li>
-        </ul>
+        </ul></div>
       </section>
-      <section>
+      <section> <div class="conteiner form">
         <form name="contact_us_form" autocomplete="on" novalidate>
           <label>
             Email
@@ -171,57 +178,60 @@
             <input type="phone" name="phone" />
           </label>
           <button type="submit">Submit</button>
-        </form>
+        </form></div>
       </section>
     </main>
 
-    <footer class="footer">
+    <footer> 
+        <div class="conteiner footer-box">
+        <div class="footer-link">
       <a href="./index.html" class="logo"
-        ><img src="./images/logo.svg" alt="logo" />CUCINA</a
+        ><img src="./images/logo.svg" alt="logo" class="logo-link"/>CUCINA</a
       >
       <ul class="list">
-        <li><a href="./index.html" class="link">Home</a></li>
-        <li><a href="./store" class="link">Store</a></li>
-        <li><a href="./recipes" class="link">Recipes</a></li>
-        <li><a href="./gallery" class="link">Gallery</a></li>
+        <li class="item"><a href="./index.html" class="link">Home</a></li>
+        <li class="item"><a href="./store" class="link">Store</a></li>
+        <li class="item"><a href="./recipes" class="link">Recipes</a></li>
+        <li class="item"><a href="./gallery" class="link">Gallery</a></li>
       </ul>
-      <address>
+      <address class="adress-box">
         <ul class="list">
-          <li>
+          <li class="item">
             <a
               href="https://goo.gl/maps/LSCHtoTCH1fFHiaG9"
-              class="link"
+              class="link link-emeil"
             >
-              <img src="./images/ep_location.svg" alt="location" width="24" height="24"/>
+              <img src="./images/ep_location.svg" alt="location" width="24" height="24" class="icon"/>
               <p>Elvia Elviaveien 1, 1234 Oslo</p>
             </a>
-          </li>
+          </li class="item">
           <li>
             <a href="mailto:willie.jennings@example.com" class="link" >
-              <img src="./images/mail.svg" alt="email"  width="24" height="24"/>
+              <img src="./images/mail.svg" alt="email"  width="24" height="24" class="icon"/>
               <p>willie.jennings@example.com</p>
             </a>
           </li>
         </ul>
       </address>
-      <ul class="list">
-        <li>
+      <ul class="list list-icons">
+        <li class="item">
           <a href="#"><img src="./images/tumblr.svg" alt="tumblr"  width="24" height="24"/></a>
         </li>
-        <li>
+        <li class="item">
           <a href="#"><img src="./images/instagram.svg" alt="instagram"  width="24" height="24"/></a>
         </li>
-        <li>
+        <li class="item">
           <a href="#"><img src="./images/youtube.svg" alt="youtube"  width="24" height="24"/></a>
         </li>
-        <li>
+        <li class="item">
           <a href="#"><img src="./images/twitter.svg" alt="twitter"  width="24" height="24"/></a>
         </li>
       </ul>
+        </div>
       <p class="privacy text">
         By using this website, you agree to the
         <a href="#" class="link">Terms of Service</a> and <a href="#" class="link">Privacy Policy</a>
-      </p>
+      </p></div>
     </footer>
   </body>
 </html>
