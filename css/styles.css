@@ -188,6 +188,10 @@ header,
 
 /*=================/FOOTER/====================*/
 
+footer {
+  border-top: 1px solid #f3f3f3;
+}
+
 .footer-box {
   padding-top: 24px;
   padding-bottom: 24px;
